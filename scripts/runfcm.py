@@ -24,8 +24,8 @@ for case in range(0,1):
         # for each subFCM 
         
         #get weights and activation levels from csv files 
-        ww = np.genfromtxt('../foivos/ww.csv',delimiter=',')
-        al = np.genfromtxt('../foivos/random.csv',delimiter=',')
+        ww = np.genfromtxt('../ww.csv',delimiter=',')
+        al = np.genfromtxt('../random.csv',delimiter=',')
         
 #        ww = np.genfromtxt('../mlfcmdata/betologic/ww_fcm'+str(q+1)+'.csv',delimiter=',')
 #        al = np.genfromtxt('../mlfcmdata/betologic/al_fcm'+str(q+1)+'_'+str(case)+'.csv',delimiter=',')
